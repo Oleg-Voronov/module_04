@@ -1,0 +1,8 @@
+def test_function():
+    k = 10 #просто что-нить
+    def  inner_function():
+        print('Я в области видимости функции test_function, однако')
+    inner_function()
+
+test_function()
+#inner_function()
